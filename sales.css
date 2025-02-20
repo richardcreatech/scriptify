@@ -1,0 +1,108 @@
+*{
+    transition: all 0.2s ease-in-out;
+}
+
+.info-style{
+    margin-top: 40px;
+}
+
+.boxOfinfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    align-items: center;
+}
+
+hr{
+    margin: 5px;
+}
+
+.selection{
+    padding: 20px;
+}
+
+.listStyle{
+    display: flex;
+    gap: 30px;
+}
+
+.fa-bowl-rice:hover , .fa-signal:hover{
+    color: rgb(0, 157, 255);
+}
+
+.shapePics{
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+}
+
+.itemsListed{
+    transition:  all 0.2s ease-in-out;
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.listed{
+    transition:  all 0.2s ease-in-out;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.listed:hover{
+    box-shadow:  0 0 25px grey;
+    cursor: grab;
+    background-color: lightgrey;
+}
+
+.listed:active{
+    background-color: rgba(211, 211, 211, 0.597);
+}
+
+@media(max-width: 1000px){
+    .listed:hover{
+        box-shadow:  0 0 25px grey;
+        cursor: grab;
+        background-color: white;
+    }
+
+    .boxOfinfo{
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .selection{
+        margin-left: 10px;
+    }
+
+}
+
+.cookie{
+    transition:  all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.grided{
+    transition:  all 0.2s ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+
+@media(min-width: 1000px){
+    .slideOut{
+        transform: translateX(-500px);
+    }
+}

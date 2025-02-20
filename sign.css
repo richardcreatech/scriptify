@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+#Forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.boxxed{
+    display: flex;
+    flex-direction: column;
+}
+
+.passwords{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit, .boxxed .length{
+    padding: 015px;
+}
+
+.boxxed .length{
+    border:  solid gray;
+    border-top: none;
+    border-left: none;
+    border-inline: none;
+    width: 300px;
+}
+
+.termed{
+    margin-top: 15px;
+}
+
+.submit{
+    margin: 20px;
+}
+
+@media(min-width: 1000px){
+    .boxxed .length{
+        width: 600px;
+    }
+}
+
+@media(max-width: 1000px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.caramel{
+    transition: 0.23s ease-in-out ;
+    color: coral;
+    text-decoration: none;
+}
+
+.caramel:hover{
+    color: rgba(240, 128, 128, 0.474);
+}
+
+.caramel:active{
+    color: palevioletred;
+}
+
