@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form id="Forms" action="Products.html">
+    <form id="Forms" name="myForm" action="Products.html">
         <div class="profile">
             <img src="./images/panda.png" alt="">
         </div>
@@ -27,18 +27,20 @@
         </label>
 
         <label class="passwords">
-           <input class="length" placeholder="password" type="password" name="" max="10" min="5"  required>
-           <input class="length" placeholder="password" type="password" name="" required>
+           <input class="length" placeholder="Enter a password" type="password" id="enteredPassword" max="10" min="5"  required>
+           <input class="length" placeholder="Confirm password" type="password" id="confirmPassword" required>
        </label>
 
        
        <label><input type="number" class="length" name="" placeholder="Number"></label>
-       <label class="termed"><span style="color: red;">*</span> Accept Terms and Conditions<input type="checkbox" name=""></label>
-       <input type="submit"  value="Join us" class="submit submitted ">
+       <label class="termed"><span style="color: red;">*</span><a href="#">Accept Terms and Conditions</a><input type="checkbox" name=""></label>
+       <input type="submit" id="submit"  value="Join us" name="submit" class="submit submitted  ">
        <a class="caramel" href="index.html">Go back to home page >>></a>
     </div>
       </form>
+
+      
     
 </body>
-
+<script src="validate.js"></script>
 </html>

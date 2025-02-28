@@ -1,0 +1,10 @@
+@media(max-width: 1000px){
+    *{
+        overflow: auto;
+    }
+    
+    .boxedInfo{
+        overflow-y: scroll;
+    }
+
+}

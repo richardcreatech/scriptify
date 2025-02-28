@@ -106,3 +106,68 @@ hr{
         transform: translateX(-500px);
     }
 }
+
+.set-box{
+    display: none;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.thebuttons{
+    background-color: #eee;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 0 5px;
+}
+
+.cancel{
+    background-color: #eee;
+       width: 35px;
+       height: 35px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .similar{
+        height: 60px;
+        width: 60px;
+}
+
+.set-buttonSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes identifier {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.displayBox{
+    display: block;
+    animation: identifier 0.13s ease-in-out;
+}
+
+/* @media(max-width: 1000px){
+    
+    .resetAccount{
+        
+    }
+    } */
